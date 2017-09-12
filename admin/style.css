@@ -1,0 +1,30 @@
+.bg-violet{
+	background-color: #563D7C;
+}
+
+.text-violet{
+	color: #563D7C;
+}
+
+.contact-us{
+	background-image: url("/images/bg.jpg");
+	background-repeat: no-repeat;
+}
+
+.panel-block-row{
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.panel-block{
+	width:23%;
+	float: left;
+}
+@media only screen and (max-width: 768px) {
+	.panel-block{
+	width:45%;
+	float: left;
+}
+   
+}
